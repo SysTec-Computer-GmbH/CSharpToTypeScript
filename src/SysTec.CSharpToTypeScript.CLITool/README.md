@@ -62,7 +62,7 @@ Add `Exec` task to `.csproj` file.
 
 ```xml
 <Target Name="CSharpToTypeScript" BeforeTargets="Build">
-    <Exec Command="dotnet cs2ts ./DTOs -o ./Client/models -i Simple -q Single -c" />
+    <Exec Command="dotnet csharp2ts ./DTOs -o ./Client/models -i Simple -q Single -c" />
 </Target>
 ```
 
@@ -71,5 +71,5 @@ Add `Exec` task to `.csproj` file.
 Run:
 
 ```cmd
-dotnet watch cs2ts ./DTOs -o ./wwwroot/ts/models
+dotnet watch csharp2ts ./DTOs -o ./wwwroot/ts/models
 ```
