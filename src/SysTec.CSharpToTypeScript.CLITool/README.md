@@ -2,6 +2,10 @@
 
 Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.
 
+We have **changed the following things**:
+
+- You can specify multiple input fields (from string to array)
+
 ![In Action](img/InAction.gif)
 
 ![Help](img/help.gif)
@@ -9,13 +13,13 @@ Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.
 ## Installing
 
 ```cmd
-dotnet tool install --global CSharpToTypeScript.CLITool
+dotnet tool install --global SysTec.CSharpToTypeScript.CLITool
 ```
 
 ## Usage
 
 ```cmd
-dotnet cs2ts [options] <Input>
+dotnet csharp2ts
 ```
 
 | Arguments:                                         |                                                           |
@@ -57,8 +61,7 @@ dotnet cs2ts init
 
 ```json
 {
-  "$schema": "https://adrianwilczynski.github.io/CSharpToTypeScript/cs2tsconfig.json",
-  "input": ".",
+  "input": ["."],
   "output": null,
   "useTabs": false,
   "tabSize": 4,
