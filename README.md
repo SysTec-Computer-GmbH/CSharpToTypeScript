@@ -1,6 +1,10 @@
 # C# to TypeScript
 
 Convert C# Models, ViewModels and DTOs into their TypeScript equivalents using webapp, .NET Core CLI Tool or VSCode extension.
+We have **changed the following things**:
+
+- You can specify multiple input fields (from string to array)
+- Added a new convention so that the type is displayed during an import, e.g. `import type {xyz} from './foo/foo.ts'`
 
 ## Learn more
 
