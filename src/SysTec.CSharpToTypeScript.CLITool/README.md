@@ -65,11 +65,3 @@ Add `Exec` task to `.csproj` file.
     <Exec Command="dotnet csharp2ts ./DTOs -o ./Client/models -i Simple -q Single -c" />
 </Target>
 ```
-
-## Watch with `dotnet watch`
-
-Run:
-
-```cmd
-dotnet watch csharp2ts ./DTOs -o ./wwwroot/ts/models
-```
