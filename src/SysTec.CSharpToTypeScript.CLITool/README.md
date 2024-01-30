@@ -5,7 +5,7 @@ Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.
 
 We have **changed the following things**:
 
-- You can specify multiple input fields (from string to array)
+- You can specify multiple input fields (from string to array). **take a look at the config file below**
 
 ## Installing
 
