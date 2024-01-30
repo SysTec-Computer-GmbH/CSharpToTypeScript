@@ -10,25 +10,3 @@ We have **changed the following things**:
 **Visual Studio Code Extension**: https://github.com/SysTec-Computer-GmbH/CSharpToTypeScript/blob/master/src/CSharpToTypeScript.VSCodeExtension/README.md
 
 **Command Line Interface**: https://github.com/SysTec-Computer-GmbH/CSharpToTypeScript/blob/master/src/SysTec.CSharpToTypeScript.CLITool/README.md
-
-## Web App
-
-![SPA](img/spa.gif)
-
-![Sample Snippet](img/spa-sample-snippet.gif)
-
-### Themes
-
-![Themes](img/spa-themes.gif)
-
-### Settings
-
-![Settings](img/spa-settings.gif)
-
-### Copy to Clipboard
-
-![Copy](img/spa-copy.gif)
-
-### Install
-
-![PWA](img/spa-pwa.gif)
