@@ -14,7 +14,7 @@
     <Authors>SysTec Computer GmbH by Letsion</Authors>
     <PackageDescription>Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.</PackageDescription>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/SysTec-Computer-GmbH/CSharpToTypeScript/tree/master/src/SysTec.CSharpToTypeScript.CLITool</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/SysTec-Computer-GmbH/CSharpToTypeScript</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <RootNamespace>CSharpToTypeScript.CLITool</RootNamespace>
     <LangVersion>12</LangVersion>
