@@ -28,7 +28,7 @@ dotnet csharp2ts
 To create optional configuration file (`cs2tsconfig.json`) in current directory run:
 
 ```cmd
-dotnet cs2ts init
+dotnet csharp2ts init
 ```
 
 ### Content
