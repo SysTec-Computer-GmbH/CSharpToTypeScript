@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CSharpToTypeScript.CLITool.Utilities;
 using CSharpToTypeScript.CLITool.Validation;
 using CSharpToTypeScript.Core.Options;
@@ -13,7 +14,7 @@ namespace CSharpToTypeScript.CLITool.Commands
         protected CommandBase() => OnBeforeArgumentsSet();
 
         [Argument(0, Description = "Input file or directory path")]
-        public string Input { get; set; } = ".";
+        public List<string> Input { get; set; } = new();
 
         [Option(ShortName = "o", Description = "Output file or directory path")]
         public string Output { get; set; }

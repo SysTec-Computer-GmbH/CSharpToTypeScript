@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CSharpToTypeScript.CLITool.Commands;
 using CSharpToTypeScript.Core.Options;
 using Newtonsoft.Json;
@@ -20,7 +21,7 @@ namespace CSharpToTypeScript.CLITool
         public const string Schema
             = "https://adrianwilczynski.github.io/CSharpToTypeScript/cs2tsconfig.json";
 
-        public string Input { get; set; }
+        public List<string> Input { get; set; }
         public string Output { get; set; }
         public bool? UseTabs { get; set; }
         public int? TabSize { get; set; }
