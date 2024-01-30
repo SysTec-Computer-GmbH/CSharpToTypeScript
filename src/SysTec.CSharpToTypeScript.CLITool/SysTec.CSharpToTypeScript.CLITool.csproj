@@ -11,10 +11,10 @@
 
     <PackageId>SysTec.CSharpToTypeScript.CLITool</PackageId>
     <Version>2.5.1</Version>
-    <Authors>AdrianWilczynski</Authors>
+    <Authors>SysTec Computer GmbH by Letsion</Authors>
     <PackageDescription>Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.</PackageDescription>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/AdrianWilczynski/CSharpToTypeScript/tree/master/src/CSharpToTypeScript.CLITool</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/SysTec-Computer-GmbH/CSharpToTypeScript/tree/master/src/SysTec.CSharpToTypeScript.CLITool</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <RootNamespace>CSharpToTypeScript.CLITool</RootNamespace>
     <LangVersion>12</LangVersion>
@@ -33,6 +33,10 @@
 
   <ItemGroup>
     <None Include="img\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="nupkg\" />
   </ItemGroup>
 
 </Project>
