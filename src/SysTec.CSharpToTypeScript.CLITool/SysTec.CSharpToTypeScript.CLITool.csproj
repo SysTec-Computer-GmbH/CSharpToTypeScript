@@ -10,7 +10,7 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
 
     <PackageId>SysTec.CSharpToTypeScript.CLITool</PackageId>
-    <Version>2.5.1</Version>
+    <Version>2.5.4</Version>
     <Authors>SysTec Computer GmbH by Letsion</Authors>
     <PackageDescription>Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.</PackageDescription>
     <RepositoryType>git</RepositoryType>
@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SysTec.CSharpToTypeScript.Core\CSharpToTypeScript.Core.csproj" />
-    <ProjectReference Include="..\SysTec.CSharpToTypeScript.Core\SysTec.CSharpToTypeScript.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

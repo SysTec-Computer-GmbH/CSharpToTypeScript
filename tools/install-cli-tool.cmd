@@ -1,5 +1,5 @@
-pushd ..\src\CSharpToTypeScript.CLITool
+pushd ..\src\SysTec.CSharpToTypeScript.CLITool
 dotnet pack -c Release
-dotnet tool uninstall --global CSharpToTypeScript.CLITool
-dotnet tool install --no-cache --global --add-source ./nupkg CSharpToTypeScript.CLITool
+dotnet tool uninstall --global SysTec.CSharpToTypeScript.CLITool
+dotnet tool install --no-cache --global --add-source ./nupkg SysTec.CSharpToTypeScript.CLITool
 popd

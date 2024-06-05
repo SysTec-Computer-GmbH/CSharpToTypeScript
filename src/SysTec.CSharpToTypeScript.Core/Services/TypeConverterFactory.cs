@@ -11,6 +11,7 @@ namespace CSharpToTypeScript.Core.Services
             converter.SetNext(new ByteArrayHandler())
                 .SetNext(new StringConverter())
                 .SetNext(new DateConverter())
+                .SetNext(new TimeOnlyConverter())
                 .SetNext(new NumberConverter())
                 .SetNext(new BooleanConverter())
                 .SetNext(new ArrayConverter(converter))
