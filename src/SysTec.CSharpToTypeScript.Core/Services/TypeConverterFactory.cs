@@ -12,6 +12,7 @@ namespace CSharpToTypeScript.Core.Services
                 .SetNext(new StringConverter())
                 .SetNext(new DateConverter())
                 .SetNext(new TimeOnlyConverter())
+                .SetNext(new DateOnlyConverter())
                 .SetNext(new NumberConverter())
                 .SetNext(new BooleanConverter())
                 .SetNext(new ArrayConverter(converter))
